@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" width="200px">
+  <img src="https://user-images.githubusercontent.com/34529231/120911676-85910a80-c65f-11eb-9381-b142d7e66eda.png" width="200px">
   <h1 align="center">
     <p>⚡️ Discord Bot Core ⚡️</p>
   </h1>
