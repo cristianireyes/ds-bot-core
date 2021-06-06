@@ -51,8 +51,7 @@ On the Discord's developer portal, select your bot, go to the OAuth2 tab and che
   2. BOT PERMISSIONS
       - Use Slash Commands
 
-![1. Select Scopes](https://owencalvin.github.io/discord.ts/authorize1.png)
-![2. Select bot permissions](https://owencalvin.github.io/discord.ts/authorize2.png)
+![permissions](https://user-images.githubusercontent.com/34529231/120912886-60a19500-c669-11eb-9494-92b88d38e0c9.png)
 
 <br/>
 
