@@ -1,0 +1,15 @@
+/* Docs: https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions */
+{
+  "recommendations": [
+    "xabikos.javascriptsnippets",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "pkief.material-icon-theme",
+    "coenraads.bracket-pair-colorizer-2",
+    "wix.vscode-import-cost",
+    "aaron-bond.better-comments",
+    "mikestead.dotenv",
+    "mhutchie.git-graph",
+    "emilast.logfilehighlighter"
+  ]
+}
