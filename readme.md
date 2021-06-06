@@ -28,7 +28,7 @@ To use discord.js, you'll need to install Node.js
 You can follow the official discord guide, in the ***Installing Node.js*** section.
  - [Discord.js Guide - Installing Node.js](https://discordjs.guide/preparations/#installing-node-js)
 
-> ⚠️ Just follow the steps in the indicated section as you should not install Discord as indicated in later steps.
+> ⚠️ Just follow the first section of the guide, which have the installing node.js
 
 <br/>
 
@@ -38,7 +38,7 @@ You can follow the official discord guide, in the ***Installing Node.js*** secti
 - run `cd ds-bot-core`
 - run `npm i`
 - set environment variables in file `.env`. Especially the discord token.
-- find where GUILD_ID is and modify it with your server id. *[Need help?](https://support.discord.com/hc/es/articles/206346498--D%C3%B3nde-puedo-encontrar-mi-ID-de-usuario-servidor-mensaje-)*
+- in the follow path `src/config/index.ts` replace guild_id with your server id. *[How do i get my server id?](https://support.discord.com/hc/es/articles/206346498--D%C3%B3nde-puedo-encontrar-mi-ID-de-usuario-servidor-mensaje-)*
 - run `npm run dev`
 
 <br/>

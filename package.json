@@ -1,7 +1,7 @@
 {
   "name": "ds-bot-core",
-  "version": "0.0.1",
-  "description": "A multipurpose Discord Bot",
+  "version": "1.0.0",
+  "description": "The basis of a multipurpose bot that implements Typescript and Slash commands",
   "keywords": [
     "discord",
     "bot",
