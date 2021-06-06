@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/34529231/120911676-85910a80-c65f-11eb-9381-b142d7e66eda.png" width="200px">
+  <img src="https://user-images.githubusercontent.com/34529231/120911765-4fa05600-c660-11eb-9926-44686aaa15fb.png" width="250px">
   <h1 align="center">
     <p>⚡️ Discord Bot Core ⚡️</p>
   </h1>
@@ -9,6 +9,7 @@
   </h3>
   <br/>
 </p>
+
 
 ## 👀 Introduction
 This bot implements the **[`discord.js API`](https://discordjs.guide/)** and the **[`discord.ts`](https://owencalvin.github.io/discord.ts/)** framework to provide quick and easy configuration of forward slash commands
