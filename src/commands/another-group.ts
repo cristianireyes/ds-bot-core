@@ -18,7 +18,7 @@ import { ALLOWED_GUILDS } from '../config';
 export abstract class AnotherGroup {
   @Slash('countCharacters')
   @Description('Counts the characters of a text')
-  add(
+  countCharacters(
     @Option('text', { description: 'Text to count', required: true })
       text: string,
       interaction: CommandInteraction,
