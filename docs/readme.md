@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/34529231/120911765-4fa05600-c660-11eb-9926-44686aaa15fb.png" width="250px">
+  <img src="https://user-images.githubusercontent.com/34529231/121291304-6f34ba00-c8be-11eb-984a-fc0b3cb346ce.png" width="250px">
   <h2 align="center">
     <p>✨ Discord Bot Core - docs ✨</p>
   </h2>
   <br/>
 </p>
+
 
 # 🦄 Introduction
 This bot implements the **[`discord.js API`](https://discord.com/developers/docs)** and the **[`discord.ts`](https://owencalvin.github.io/discord.ts/)** framework to provide quick and easy configuration of forward **[`slash commands`](https://discord.com/developers/docs/interactions/slash-commands)**
@@ -82,12 +83,16 @@ $ npm test
 # 👾 Slash commands
 This bot implements the slash command API. The commands can be created in the `/commands` folder.   
 In this project, a new class is created for each new group of commands. We recommend separating the classes into .ts files.  
-{ img_folders }
+![command-group-class-example](https://user-images.githubusercontent.com/34529231/121291538-d18dba80-c8be-11eb-8e30-d1c902ca8af6.png)
+
 
 To create forward slash commands you can check *[the documentation](https://owencalvin.github.io/discord.ts/decorators/slash.html#initialize-client-and-slash-commands)* for `@typeit/discord`
 
 To use the commands, you can do it from the discord chat accessing with `/your_command`. In the case of having command groups, you must prepend the *name of the group* in the command, for example for the group utilities, `/utilities countCharacters`.   
-{img_example_command}
+
+![example-command](https://user-images.githubusercontent.com/34529231/121291483-b8850980-c8be-11eb-83b0-dee78ae81898.png)
+
+
 
 <br/>
 
@@ -97,7 +102,7 @@ You can launch your bot in different ways, for development I recommend:
 - `vscode debugger`: In vscode, go to the debug options and launch the debugger.
 
 You should see something like this:   
-{img_output_console}
+![console-output](https://user-images.githubusercontent.com/34529231/121291575-e10d0380-c8be-11eb-8855-c7588dd271ed.png)
 
 <br/>
 
