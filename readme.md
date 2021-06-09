@@ -12,7 +12,7 @@
 
 
 ## 👀 Introduction
-This bot implements the **[`discord.js API`](https://discordjs.guide/)** and the **[`discord.ts`](https://owencalvin.github.io/discord.ts/)** framework to provide quick and easy configuration of forward slash commands
+This bot implements the **[`discord.js API`](https://discord.com/developers/docs)** and the **[`discord.ts`](https://owencalvin.github.io/discord.ts/)** framework to provide quick and easy configuration of forward **[`slash commands`](https://discord.com/developers/docs/interactions/slash-commands)**
 
 <br/>
 
@@ -20,10 +20,8 @@ This bot implements the **[`discord.js API`](https://discordjs.guide/)** and the
 **To use the bot, you need to have a valid token, it can be obtained from the discord developer portal**
  - [Discord's developer portal - Bots and Apps](https://discord.com/developers/docs/intro#bots-and-apps)
 
-<br/>
-
 ### Preparations
-To use discord.js, you'll need to install Node.js
+To use discord.js, you'll need to install [Node.js 12.0 or higher.](https://nodejs.org/)
 
 You can follow the official discord guide, in the ***Installing Node.js*** section.
  - [Discord.js Guide - Installing Node.js](https://discordjs.guide/preparations/#installing-node-js)
@@ -34,17 +32,17 @@ You can follow the official discord guide, in the ***Installing Node.js*** secti
 
 ## 🚀 Getting started
 
-- Clone this repo `https://github.com/cristianireyes/ds-bot-core`
+- clone this repo `git clone https://github.com/cristianireyes/ds-bot-core.git`
 - run `cd ds-bot-core`
 - run `npm i`
-- set environment variables in file `.env`. Especially the discord token.
-- in the follow path `src/config/index.ts` replace guild_id with your server id. *[How do i get my server id?](https://support.discord.com/hc/es/articles/206346498--D%C3%B3nde-puedo-encontrar-mi-ID-de-usuario-servidor-mensaje-)*
+- set environment variables in file `.env`. Especially the ***discord token***.
+- in the follow path `src/config/index.ts` replace `guild_id` with your server id. *[How do i get my server id?](https://support.discord.com/hc/es/articles/206346498--D%C3%B3nde-puedo-encontrar-mi-ID-de-usuario-servidor-mensaje-)*
 - run `npm run dev`
 
 <br/>
 
 ## ⚡️ Add the bot to your server
-On the Discord's developer portal, select your bot, go to the OAuth2 tab and check the following boxes:
+On the Discord's developer portal, select your bot, go to the **OAuth2** tab and check the following boxes:
   1. SCOPES
       - bot
       - applications.commands
@@ -57,7 +55,7 @@ On the Discord's developer portal, select your bot, go to the OAuth2 tab and che
 
 ## 📑 Documentation
 You can find useful documentation at
-- in the **docs folder** at the root of this repository `/docs`
+- in the **[`docs folder`](https://github.com/cristianireyes/ds-bot-core/tree/main/docs)** at the root of this repository `/docs`
 - in [Discord's developer portal](https://discord.com/developers/docs/intro)
 - in [Discord.js Guide](https://discordjs.guide/)
 - in [Discord.ts official documentation](https://owencalvin.github.io/discord.ts/)
@@ -65,4 +63,4 @@ You can find useful documentation at
 <br/>
 
 ## 🩺 Support
-In case of errors, you can create a problem by detailing your problem
+In case of errors, you can create a [issue](https://github.com/cristianireyes/ds-bot-core/issues) by detailing your problem.
