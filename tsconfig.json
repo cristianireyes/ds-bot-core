@@ -1,25 +1,25 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "lib": ["ES2020", "ES2017", "esnext.asynciterable"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "dist",
     "paths": {
       "@commands/*": ["src/commands/*"],
-      "@utils/*": ["src/utils/*"],
       "@guards/*": ["src/guards/*"],
-      "types/*": ["src/types/*"]
+      "@utils/*": ["src/utils/*"]
     },
-    "module": "commonjs",
-    "target": "es2019",
-    "noImplicitAny": false,
+    "resolveJsonModule": true,
     "sourceMap": true,
-    "outDir": "dist",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "esModuleInterop": true,
-    "declaration": true,
-    "importHelpers": true,
-    "forceConsistentCasingInFileNames": true,
-    "lib": ["ES2020", "ES2017", "esnext.asynciterable"],
-    "moduleResolution": "node"
+    "target": "es2019"
   },
   "exclude": ["node_modules", "tests"]
 }
