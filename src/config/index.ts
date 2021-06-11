@@ -7,5 +7,6 @@ export const APP_VERSION: string = version;
 export const { DISCORD_TOKEN } = process.env;
 
 export const ALLOWED_GUILDS: string[] = [
-  '301882242198929412',
+  'GUILD_ID_1',
+  'GUILD_ID_2',
 ];
