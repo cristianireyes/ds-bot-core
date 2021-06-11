@@ -25,7 +25,8 @@ export abstract class Maths {
       y: number,
       interaction: CommandInteraction,
   ) {
-    interaction.reply(String(x + y));
+    const result = `*${ x } + ${ y }* = \`${ (x + y) }\` `;
+    interaction.reply(result);
   }
 
   @Slash('multiply')
@@ -37,6 +38,7 @@ export abstract class Maths {
       y: number,
       interaction: CommandInteraction,
   ) {
-    interaction.reply(String(x * y));
+    const result = `*${ x } x ${ y }* = \`${ (x * y) }\``;
+    interaction.reply(result);
   }
 }

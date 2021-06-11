@@ -23,6 +23,8 @@ export abstract class AnotherGroup {
       text: string,
       interaction: CommandInteraction,
   ) {
-    interaction.reply(String(text ? text.length : 0));
+    const total = String(text.length || 0);
+    const result = `🧠 *${ text }* has \`${ total }\` characters`;
+    return interaction.reply(result);
   }
 }
