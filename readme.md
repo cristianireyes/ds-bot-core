@@ -12,7 +12,7 @@
 
 
 ## 👀 Introduction
-This bot implements the **[`discord.js API`](https://discord.com/developers/docs)** and the **[`discord.ts`](https://owencalvin.github.io/discord.ts/)** framework to provide quick and easy configuration of forward **[`slash commands`](https://discord.com/developers/docs/interactions/slash-commands)**
+This bot implements the **[`discord.js API`](https://discord.com/developers/docs)** and the **[`discord.ts`](https://owencalvin.github.io/discord.ts/)** framework to provide quick and easy configuration of forward **[`slash commands`](https://discord.com/developers/docs/interactions/application-commands#slash-commands)**
 
 <br/>
 
